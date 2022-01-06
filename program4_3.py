@@ -6,7 +6,7 @@ def inspect(concat):
         print(concat('1','2','3','4',Reversed=True))
         concat(*args, **kwargs)
     return ret_arguments
-
+ 
 @inspect
 def concat(*str,Reversed = False):
     ret_str=''
